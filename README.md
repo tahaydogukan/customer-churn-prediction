@@ -1,28 +1,19 @@
-Customer Churn Prediction (Machine Learning)
-1. Proje Amacı
+# Customer Churn Prediction Project
 
-Bu projede, bir müşterinin hizmeti bırakıp bırakmayacağını (Churn) tahmin etmek için makine öğrenmesi modeli geliştirilmiştir.
+This project aims to analyze customer behavior and build machine learning models to predict customer churn. The notebook includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and performance evaluation.
 
-2. Kullanılan Teknikler
+## Project Objective
 
-Veri temizleme
+The main goal is to identify patterns that lead to customer churn and develop predictive models to estimate the likelihood of a customer leaving. This supports business decision-making and helps improve customer retention strategies.
 
-Kategorik değişkenlerin encode edilmesi
+## Technologies Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
 
-Train/Test bölme
+## Results
 
-Tek model: Random Forest Classifier
-
-Feature Importance analizi
-
-Accuracy, Confusion Matrix, Classification Report
-
-3. Final Sonuç
-
-Accuracy: 0.80
-
-En önemli özellikler: tenure, MonthlyCharges, TotalCharges
-
-4. Kullanılan Dataset
-
-Telco Customer Churn (Kaggle)
+The project identifies the most influential factors contributing to churn and builds a machine learning model with strong predictive performance. The best model can effectively classify high-risk customers and help businesses develop data-driven retention strategies.
